@@ -1,0 +1,9 @@
+[package]
+name = "vsymb-web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+input_yew = "0.1.10"
+vsymb = { version = "0.1.0", path = "../vsymb" }
+yew = { version = "0.21.0", features = ["csr"] }
