@@ -68,6 +68,13 @@ pub fn app() -> Html {
 
                 <div style={"font-family: Tahoma, sans-serif;"}>
 
+                    <p style={"color: black; text-align: center; font-weight: bold;"}>
+                        {"NOTES"}
+                    </p>
+                    <p>
+                        {"Valid inputs are perfect matchings: words in which every unique character appears exactly twice."}<br/>{"e.g. \"123123\" or \"P🍄Q🦀🐢PQ🍄🦀🐢\"."}
+                    </p>
+
                     <p style={"color: red; text-align: center; font-weight: bold;"}>
                         {"IMPORTANT"}
                     </p>
